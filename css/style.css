@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}  
+
+body,html{
+  width: 100%;
+  height: 100%;
+ 
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  font-family: "微软雅黑";
+  font-size: 14px;
+}
+ ul,li{
+	 list-style: none;
+ }
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+html,
+body {
+	background: url(../images/bg1.jpg) no-repeat;
+	background-size: 100% 100%;
+	min-height:800px;
+	width: 100%;
+}
+
+.box {
+	width: 1000px;
+	margin: 5px auto;
+	overflow: hidden;
+}
+
+.boxBg {
+	width: 1000px;
+	margin: 10px auto;
+	overflow: hidden;
+	padding: 20px 0;
+}
+
+.nav {
+	width: 700px;
+	margin: auto;
+
+}
+
+.nav li {
+	float: left;
+	padding-top: 30px;
+	margin: 0 15px;
+}
+
+.nav li a {
+	padding: 5px 10px;
+	color: #fff;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.nav li a:hover {
+	border-bottom: 2px solid #fff;
+}
+
+.active {
+	border-bottom: 2px solid #fff;
+}
+
+.boxLeft {
+	float: left;
+	width: 650px;
+	padding: 10px;
+	border: 1px solid #ddd;
+}
+
+.boxRight {
+	float: right;
+	padding: 20px;
+	width: 270px;
+}
+
+.logo {
+	font-family: '仿宋';
+	font-size: 30px;
+	color: #fff;
+	font-weight: 600;
+	margin-top: 20px;
+	float: left;
+	text-align: center;
+}
+
+.boxLeft_l dl dd,
+.boxLeft_l dl dt {
+	float: left;
+	width: 50%;
+	line-height: 36px;
+}
+
+#tab {
+	padding: 10px;
+}
+#tab td{
+	padding: 10px;
+}
+#tab td img{
+	border-radius:8px ;
+	transition: all 0.5s;
+	
+}
+#tab td img:hover{
+	transition: all 0.5s;
+	transform: scale(1.1);
+}
+.DiaryList{
+	padding: 10px;
+}
+.DiaryList li{
+	list-style: disc;
+	margin-left: 20px;
+	line-height:16px;
+}
+.DiaryList li:hover{
+	cursor: pointer;
+	text-decoration: underline;
+	color: goldenrod;
+}
+.DiaryList li .titleDate{
+	text-align: right;
+	display: block;
+}
+.foot {
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background: rgb(0, 155, 255);
+}
+
+.foot span {
+	padding: 0 20px;
+}
+#messages{
+	width: 100%;
+}
+
